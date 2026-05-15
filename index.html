@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MIRAS — Ясли-сад</title>
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box}
+    body{font-family:'Nunito',system-ui,sans-serif;min-height:100vh;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,#2B7EC1 0%,#7B3FA0 100%)}
+    .card{background:#fff;border-radius:24px;padding:48px;max-width:600px;width:90%;text-align:center;box-shadow:0 24px 80px rgba(0,0,0,.2)}
+    .card h1{font-size:28px;color:#1A1A2E;margin-bottom:8px}
+    .card p{color:#6B7280;margin-bottom:32px}
+    .links{display:flex;flex-direction:column;gap:12px}
+    .links a{display:block;padding:16px 24px;border-radius:12px;text-decoration:none;font-weight:700;font-size:16px;transition:transform .2s,box-shadow .2s}
+    .links a:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,0,0,.15)}
+    .almaty{background:#E8302A;color:#fff}
+    .atyrau{background:#2B7EC1;color:#fff}
+    .v5{background:#4CAF50;color:#fff}
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="card">
+    <h1>🌿 MIRAS</h1>
+    <p>Выберите город</p>
+    <div class="links">
+      <a href="/miras-almaty" class="almaty">🍎 Алматы</a>
+      <a href="/miras-atyrau" class="atyrau">🌊 Атырау</a>
+      <a href="/miras-v5" class="v5">🏫 Версия 5</a>
+    </div>
+  </div>
+</body>
+</html>
